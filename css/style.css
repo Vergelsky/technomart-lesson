@@ -1,2 +1,6 @@
+body {background-color: black;}
 
-
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+}
