@@ -1,6 +1,113 @@
-body {
-    background-color: black;
-    font-family: ;
+:root {
+    --basic-darck-blue: #293449;
+    --basic-grey-blue: #32425C;
+    --basic-green: #63A63E;
+    --basic-red: #EE3643;
+    --basic-white: #FFFFFF;
+    --basic-background: #F1F5F7;
+    --basic-special-yellow: #FFBF47;
+    --basic-special-blue: #3BBCE3;
+    --basic-special-purple: #DC91D8;
+    --basic-special-green: #8ED78F;
+    --back-grey:rgba(0, 0, 0, 0.25);
+    --shadow:rgba(0, 0, 0, 0.25);
+    --basic-grey: #F9F5F0;
+    --basic-light-grey: #EAEAEA;
+    --basic-black: #000000;
+    --basic-orange: #FFD180;
+}
+
+
+.page-body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Cuprum", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--basic-white)
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main-header {
+    color: var(--basic-white);
+    font-size: 18px;
+    background-color: var(--basic-background);
+}
+
+.main-header-top {
+    background-color: var(--basic-darck-blue);
+}
+
+.page-centring {
+    width: 940px;
+    margin: 0px auto;
+}
+
+.logo {
+    background-color: var(--basic-red);
+    padding: 12px 56px 17px;
+    box-shadow: inset 0px -5px var(--shadow);
+}
+
+.search-form-button {
+    display: none;
+}
+
+.search-form-field {
+    background-color: var(--basic-darck-blue);
+    border: none;
+}
+
+.search-form-field::placeholder {
+    color: var(--basic-white);
+}
+
+.checkout {
+    background-color: var(--basic-green);
+    padding: 9px 16px 9px 19px;
+}
+
+.site-description {
+    font-style: italic;
+    color: var(--basic-red);
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.header-contacts-phone{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 30px;
+    color: var(--basic-red);
+}
+
+.header-contacts {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--basic-grey-blue);
+}
+
+.login-reg-section {
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.main-header-bottom {
+    background-color: var(--basic-grey-blue);
+    list-style-type: none;
 }
 
 .old-price {
