@@ -15,6 +15,7 @@
     --basic-light-grey: #EAEAEA;
     --basic-black: #000000;
     --basic-orange: #FFD180;
+    --white-transparent: rgba(255, 255, 255, 0.3);
 }
 
 
@@ -108,6 +109,77 @@ li {
 .main-header-bottom {
     background-color: var(--basic-grey-blue);
     list-style-type: none;
+    box-shadow: inset 0px -5px var(--shadow);
+}
+
+.hide-title {
+    display: none;
+}
+
+.bar {
+    color: var(--basic-white);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.materials {
+    background-color: var(--basic-special-yellow);
+}
+
+.instrument {
+    background-color: var(--basic-special-blue);
+}
+
+.technique {
+    background-color: var(--basic-special-purple);
+}
+
+.sales {
+    background-color: var(--basic-special-green);
+}
+
+.delivery {
+    background-color: var(--basic-special-yellow);
+}
+
+.button {
+    text-transform: uppercase;
+    background-color: var(--basic-red);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.button.userful-links {
+    text-transform: uppercase;
+    background-color: var(--white-transparent);
+}
+
+.slider-caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: var(--basic-white);
+}
+
+.slider-description {
+font-size: 18px;
+line-height: 24px;
+color: var(--basic-white);
+
+}
+
+.section-head {
+background-color: var(--basic-grey);
+}
+
+.section-title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
 }
 
 .old-price {
